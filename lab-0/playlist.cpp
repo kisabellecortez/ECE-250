@@ -38,11 +38,8 @@ void Playlist::addSong(string t_a){
             cout << "cannot insert " + t_a << endl; 
         }
     }
-<<<<<<< HEAD
-=======
 
   cout << playlist; 
->>>>>>> 3368c7920501af25254266358da923b48ecf11d1
 }; 
 
 void Playlist::playSong(int n){
@@ -56,7 +53,6 @@ void Playlist::playSong(int n){
 
 void Playlist::delSong(int n){
     if((n >= currPlaylistS) || (currPlaylistS == 0)){
-<<<<<<< HEAD
         cout << "can not erase " << n << endl; 
     }
     else{
@@ -68,7 +64,6 @@ void Playlist::delSong(int n){
                 playlist[i] = playlist[i + 1]; 
             }
         }
-=======
         cout << "can not erase "; 
       cout << n << endl; 
     }
@@ -81,7 +76,6 @@ void Playlist::delSong(int n){
             playlist[i] = playlist[i + 1]; 
         }
       }
->>>>>>> 3368c7920501af25254266358da923b48ecf11d1
 
         currPlaylistS = currPlaylistS - 1; 
 

@@ -27,12 +27,9 @@ int main(int argc, char *argv[]){
 
         playlistInit = true; 
 
-<<<<<<< HEAD
         cout << "done" << endl; 
-=======
       cout << "done" << endl; 
       cout << myPlaylist.getPlaylistSize(); 
->>>>>>> 3368c7920501af25254266358da923b48ecf11d1
     }
 
     while(playlistInit && running){
@@ -49,11 +46,8 @@ int main(int argc, char *argv[]){
         }
         //erase song
         else if(cmd == "e"){
-<<<<<<< HEAD
             myPlaylist.delSong(stoi(input.substr(1))); 
-=======
           myPlaylist.delSong(stoi(input.substr(1))); 
->>>>>>> 3368c7920501af25254266358da923b48ecf11d1
         }
         //end program 
         else if(cmd == "done"){

@@ -23,11 +23,7 @@ class Playlist{
 
         }
         Playlist(int N){
-<<<<<<< HEAD
             playlistS = N; 
-=======
-          playlistS = N; 
->>>>>>> 3368c7920501af25254266358da923b48ecf11d1
             currPlaylistS = 0; 
             playlist = new string[N]; 
         }
