@@ -5,14 +5,6 @@ using namespace std;
 
 // implement classes' member functions here...
 
-int Playlist::getPlaylistSize(){
-    return playlistS; 
-}; 
-
-int Playlist::getCurrSize(){
-    return currPlaylistS; 
-}; 
-
 void Playlist::addSong(string t_a){
     string title = t_a.substr(0, t_a.find(';')); 
 
