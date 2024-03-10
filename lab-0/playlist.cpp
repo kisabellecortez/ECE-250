@@ -5,6 +5,14 @@ using namespace std;
 
 // implement classes' member functions here...
 
+int Playlist::getPlaylistSize(){
+    return playlistS; 
+}; 
+
+int Playlist::getCurrSize(){
+    return currPlaylistS; 
+}; 
+
 void Playlist::addSong(string t_a){
     string title = t_a.substr(0, t_a.find(';')); 
 
@@ -27,11 +35,9 @@ void Playlist::addSong(string t_a){
             cout << "success" << endl;
         }
         else{
-            cout << "cannot insert " + t_a << endl; 
+            cout << "can not insert " + t_a << endl; 
         }
-    }
-
-  cout << playlist; 
+    } 
 }; 
 
 void Playlist::playSong(int n){
@@ -45,17 +51,6 @@ void Playlist::playSong(int n){
 
 void Playlist::delSong(int n){
     if((n >= currPlaylistS) || (currPlaylistS == 0)){
-        cout << "can not erase " << n << endl; 
-    }
-    else{
-        if(currPlaylistS == 1){
-            playlist[0] = ""; 
-        }
-        else{
-            for(int i = n; i < currPlaylistS - 1; i++){
-                playlist[i] = playlist[i + 1]; 
-            }
-        }
         cout << "can not erase "; 
       cout << n << endl; 
     }

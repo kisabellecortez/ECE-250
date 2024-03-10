@@ -3,59 +3,61 @@
 #include <string>
 #include "playlist.h"
 
-
-int main(int argc, char *argv[]){
+int main(int argc, char *argv[])
+{
 
     // your code goes here...
 
-    std::string input; 
-    std::string cmd; 
-    bool playlistInit = false; 
-    bool running = true; 
+    std::string input;
+    std::string cmd;
+    bool playlistInit = false;
+    bool running = true;
 
-    //get command
-    std::getline(std::cin, input); 
-    cmd = input.substr(0, input.find(" ")); 
+    // get command
+    std::getline(std::cin, input);
+    cmd = input.substr(0, input.find(" "));
 
-    Playlist myPlaylist; 
+    Playlist myPlaylist;
 
-    //initializing of playlist only ran once
-    if(cmd == "m"){
-        int N = stoi(input.substr(2)); 
+    // initializing of playlist only ran once
+    if (cmd == "m")
+    {
+        int N = stoi(input.substr(2));
 
-        myPlaylist = Playlist(N); 
+        myPlaylist = Playlist(N);
 
-        playlistInit = true; 
+        playlistInit = true;
 
-        cout << "done" << endl; 
-      cout << "done" << endl; 
-      cout << myPlaylist.getPlaylistSize(); 
+        cout << "success" << endl;
     }
 
-    while(playlistInit && running){
+    while (playlistInit && running)
+    {
         std::getline(std::cin, input);
-        cmd = input.substr(0, input.find(" ")); 
+        cmd = input.substr(0, input.find(" "));
 
-        //add song
-        if(cmd == "i"){
-            myPlaylist.addSong(input.substr(2)); 
+        // add song
+        if (cmd == "i")
+        {
+            myPlaylist.addSong(input.substr(2));
         }
-        //play song 
-        else if(cmd == "p"){
-            myPlaylist.playSong(stoi(input.substr(1))); 
+        // play song
+        else if (cmd == "p")
+        {
+            myPlaylist.playSong(stoi(input.substr(1)));
         }
-        //erase song
-        else if(cmd == "e"){
-            myPlaylist.delSong(stoi(input.substr(1))); 
-          myPlaylist.delSong(stoi(input.substr(1))); 
+        // erase song
+        else if (cmd == "e")
+        {
+            myPlaylist.delSong(stoi(input.substr(1)));
         }
-        //end program 
-        else if(cmd == "done"){
-            running = false; 
+        // end program
+        else if (cmd == "done")
+        {
+            running = false;
         }
-        else{
-
+        else
+        {
         }
     }
-
 }

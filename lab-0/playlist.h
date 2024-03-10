@@ -23,8 +23,8 @@ class Playlist{
 
         }
         Playlist(int N){
-            playlistS = N; 
+          playlistS = N; 
             currPlaylistS = 0; 
             playlist = new string[N]; 
         }
-}; 
+};
