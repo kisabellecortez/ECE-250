@@ -26,46 +26,54 @@ int main()
             ifstream corpus("corpus.txt");
             string word;
 
-            if (!corpus.is_open()){
-                cout << "not open"; 
+            if (!corpus.is_open())
+            {
+                cout << "not open";
             }
-                while (corpus >> word)
-                {
-                    trie.insert(word);
-                }
+            while (corpus >> word)
+            {
+                trie.insert(word);
+            }
 
             corpus.close();
 
-          cout << "success" << endl; 
+            cout << "success" << endl;
         }
         else if (cmd == "i")
         {
             cin >> input;
 
-          bool success = trie.insert(input);
+            bool success = trie.insert(input);
 
-          if(success){
-            cout << "success" << endl; 
-          }
-          else{
-            cout << "failure" << endl; 
-          }
+            if (success)
+            {
+                cout << "success" << endl;
+            }
+            else
+            {
+                cout << "failure" << endl;
+            }
         }
         else if (cmd == "c")
         {
             cin >> input;
 
             int count = trie.prefix(input);
-          cout << "count is " << count << endl; 
-          
+
+            if (count == 0)
+            {
+                cout << "not found" << endl;
+            }
+            else
+            {
+                cout << "count is " << count << endl;
+            }
         }
         else if (cmd == "e")
         {
             cin >> input;
 
-           trie.erase(input);
-
-            
+            trie.erase(input);
         }
         else if (cmd == "p")
         {

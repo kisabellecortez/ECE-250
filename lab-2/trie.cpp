@@ -13,13 +13,16 @@ Trie::Trie()
 }
 
 // destructor
-Trie::~Trie() {}
+Trie::~Trie()
+{
+    recurseClear(root);
+    delete root;
+}
 
 // insert word into trie - done
-bool Trie::insert(string word)
+bool Trie::insert(string &word)
 {
     Node *curr{root};
-    Node *prev{nullptr};
 
     // create array of chars of given word
     int length = word.length();
@@ -53,7 +56,6 @@ bool Trie::insert(string word)
             {
                 curr->children[indexToSearch]->isEnd = true;
             }
-            prev = curr;
             curr = curr->children[indexToSearch]; // go to next node
         }
         numWords++; // add word
@@ -66,7 +68,7 @@ bool Trie::insert(string word)
 }
 
 // find all words beginning with prefix
-int Trie::prefix(string prefix)
+int Trie::prefix(string &prefix)
 {
     Node *curr{root};
 
@@ -91,7 +93,7 @@ int Trie::prefix(string prefix)
 }
 
 // erase word - done
-void Trie::erase(string word)
+void Trie::erase(string &word)
 {
     Node *curr{root};
     Node *prev{nullptr};
@@ -116,6 +118,10 @@ void Trie::erase(string word)
         if (curr->isEnd && checkChildren(curr))
         {
             curr->isEnd = false;
+        }
+        else if (numWords == 1)
+        {
+            recurseClear(root);
         }
         // recursively delete parent node
         else
@@ -154,7 +160,7 @@ void Trie::print()
 }
 
 // print if word is in trie, otherwise suggest words with prefix - done
-void Trie::spellCheck(string prefix)
+void Trie::spellCheck(string &prefix)
 {
     Node *curr{root};
 
@@ -229,7 +235,7 @@ void Trie::size() { cout << "number of words is " << numWords << endl; }
 /*          helper functions          */
 
 // search for word - done
-bool Trie::searchWord(string word)
+bool Trie::searchWord(string &word)
 {
     Node *curr{root};
     bool isFound = false;
@@ -277,7 +283,7 @@ bool Trie::searchWord(string word)
     return isFound;
 }
 
-bool Trie::searchPrefix(string prefix)
+bool Trie::searchPrefix(string &prefix)
 {
     Node *curr{root};
     bool isFound = false;
@@ -332,7 +338,7 @@ bool Trie::checkChildren(Node *node)
 }
 
 // find character of given index
-char Trie::findChar(int i)
+char Trie::findChar(int &i)
 {
     char array[26] = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I',
                       'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R',
@@ -342,13 +348,14 @@ char Trie::findChar(int i)
 }
 
 // find index of given character - done
-int Trie::findIndex(char character)
+int Trie::findIndex(char &character)
 {
     int index = -1;
     char array[26] = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I',
                       'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R',
                       'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'};
 
+    // loop through array to find matching character
     for (int i = 0; i < 26; i++)
     {
         if (array[i] == character)
@@ -361,13 +368,18 @@ int Trie::findIndex(char character)
     return index;
 }
 
+// recursively delete parent node
 void Trie::recursiveDel(Node *node)
 {
     // don't delete if node has children
     if (checkChildren(node))
     {
     }
+    // don't delete if node is end of word
     else if (node->isEnd)
+    {
+    }
+    else if (node == nullptr)
     {
     }
     // recursively delete if node has no children
@@ -390,42 +402,49 @@ void Trie::recursiveDel(Node *node)
     }
 }
 
+// recursively print all words
 void Trie::recursePrint(Node *node, string &word)
 {
     if (node == nullptr)
     {
     }
+    // if node is end of word end word
     else if (node->isEnd)
     {
         cout << word + " ";
 
+        // if node also has children continue to print words with current word
         if (checkChildren(node))
         {
             for (int i = 0; i < 26; i++)
             {
+                // if node exists
                 if (node->children[i] != nullptr)
                 {
-                    word.push_back(findChar(i));
-                    recursePrint(node->children[i], word);
-                    word.pop_back();
+                    word.push_back(findChar(i));           // make new word with letter
+                    recursePrint(node->children[i], word); // recursively print
+                    word.pop_back();                       // return to original word for the other children
                 }
             }
         }
     }
+    // if node isn't the end continue to add characters to the word
     else
     {
+        // loop through all children
         for (int i = 0; i < 26; i++)
         {
             if (node->children[i] != nullptr)
             {
-                word.push_back(findChar(i));
-                recursePrint(node->children[i], word);
-                word.pop_back();
+                word.push_back(findChar(i));           // make a new word with child's letter
+                recursePrint(node->children[i], word); // recursively print
+                word.pop_back();                       // return to original word for the other children
             }
         }
     }
 }
 
+// recursively delete all words
 void Trie::recurseClear(Node *node)
 {
     if (node == nullptr)
@@ -433,18 +452,21 @@ void Trie::recurseClear(Node *node)
     }
     else
     {
+        // loop through all children
         for (int i = 0; i < 26; i++)
         {
+            // if child exists recursively delete
             if (node->children[i] != nullptr)
             {
                 recurseClear(node->children[i]);
-                delete node->children[i];
-                node->children[i] = nullptr;
+                // delete node->children[i];
+                node->children[i] = nullptr; // dellocate it
             }
         }
     }
 }
 
+// find number of words with prefix
 int Trie::recursePrefix(Node *node)
 {
     if (node == nullptr)
@@ -456,17 +478,18 @@ int Trie::recursePrefix(Node *node)
         int count;
 
         if (node->isEnd)
-        {
+        { // if prefix is a word count is 1
             count = 1;
         }
         else
-        {
+        { // if prefix is not a word count is 0
             count = 0;
         }
 
+        // loop through all children of node
         for (int i = 0; i < 26; i++)
         {
-            count += recursePrefix(node->children[i]);
+            count += recursePrefix(node->children[i]); // recursively add count of children
         }
 
         return count;
