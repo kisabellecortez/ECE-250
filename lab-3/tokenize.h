@@ -32,7 +32,7 @@ public:
     string ret(int &tok);
     void tok_all(string &words);
     void ret_all(string &toks);
-    void print(unsigned &k);
+    void print(int &k);
 
     /* helper functions */
     unsigned hashFunction(const string &str);

@@ -117,7 +117,7 @@ int main()
         {
             // run print function with input k
             cin >> param_n;
-            unsigned index = param_n; 
+            int index = param_n; 
 
             ht.print(index); 
         }

@@ -192,14 +192,19 @@ void HashTable::ret_all(string &toks)
 }
 
 /* print chain - done */
-void HashTable::print(unsigned &k)
+void HashTable::print(int &k)
 {
-    for (auto &node : toTok[k])
-    {
-        cout << node->word + " ";
-    }
+    if(k < 0 || k > sizeArray){
 
-    cout << endl;
+    }
+    else{
+        for (auto &node : toTok[k])
+        {
+            cout << node->word + " ";
+        }
+
+        cout << endl;
+    }
 }
 
 /* HELPER FUNCTIONS */
