@@ -16,8 +16,8 @@ int Playlist::getCurrSize(){
 void Playlist::addSong(string t_a){
     string title = t_a.substr(0, t_a.find(';')); 
 
-    if((t_a == "Baby;Justin Beiber") || (title == "My Heart Will Go On") || (playlistS == currPlaylistS)){
-        cout << "cannot insert " + t_a << endl; 
+    if((t_a == "Baby;Justin Bieber") || (title == "My Heart Will Go On") || (playlistS == currPlaylistS)){
+        cout << "can not insert " + t_a << endl; 
     } 
     else{
         bool songExists = false; 
