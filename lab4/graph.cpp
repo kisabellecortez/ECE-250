@@ -177,14 +177,16 @@ void Graph::del(int a)
 
 void Graph::path(int a, int b)
 {
-    queue<int> shortestPath; 
+    pair<double, queue<int>> shortestPair; 
 
-    Dijkstra(a, b, shortestPath); // get shortest path using Dijkstra's algorithm
+    Dijkstra(a, b, shortestPair); // get shortest path using Dijkstra's algorithm
 
-    cout << "here"; 
+    queue<int> shortestPath = shortestPair.second; 
 
+    // failed if no paths to noes
     if(shortestPath.empty()){
-        cout << "empty" << endl; 
+        cout << "failure" << endl; 
+        return; 
     }
 
     // loop through path
@@ -197,35 +199,22 @@ void Graph::path(int a, int b)
     cout << endl; 
 }
 
+/* print the weight of the shortest path */
 void Graph::lowest(int a, int b)
 {
-    queue<int> shortestPath; 
-    double weight = 0; 
+    pair<double, queue<int>> shortestPair;  
 
-    Dijkstra(a, b, shortestPath); // get shortest path using Dijkstra's algorithm
+    Dijkstra(a, b, shortestPair); // get shortest path using Dijkstra's algorithm
 
-    int prevKey = a; // set previous key to first node in path 
-    shortestPath.pop(); // go to next node in path 
+    queue<int> shortestPath = shortestPair.second;
 
-    // loop through path
-    for(int i = 0; i < shortestPath.size() - 1; i++){
-        int currKey = shortestPath.front(); 
-        vector<NodeToEdge> adjNodes = graph[prevKey];
-        
-        // loop through vector of adjacent nodes 
-        for(int j = 0; j < adjNodes.size(); i++){
-            // find adjacent edge between previous node and current node
-            if(adjNodes[j].node == currKey){
-                weight += adjNodes[j].distance / (adjNodes[j].speedLimit * adjNodes[j].adjFactor); // calculate current weight
-                break; 
-            }
-        }
-
-        prevKey = currKey; // set previous key to current key
-        shortestPath.pop(); // remove element to go to next element
+    // failed if no path to nodes 
+    if(shortestPath.empty()){
+        cout << "failure" << endl; 
+        return; 
     }
 
-    cout << weight << endl; 
+    cout << shortestPair.first << endl;
 }
 
 /* helper functions */
@@ -239,9 +228,15 @@ void Graph::addNode(int a)
     }
 }
 
+struct ComparePair {
+    bool operator()(const pair<double, queue<int>>& lhs, const pair<double, queue<int>>& rhs) const {
+        return lhs.first > rhs.first; // Compare based on the first element (weight)
+    }
+};
+
 /* perform Dijkstra's algorithm */
-void Graph::Dijkstra(int from, int to, queue<int> &shortestPath){
-    priority_queue<pair<double, queue<int>>> todo;
+void Graph::Dijkstra(int from, int to, pair<double, queue<int>> &shortestPair){
+    priority_queue<pair<double, queue<int>>, vector<pair<double, queue<int>>>, ComparePair> todo;
     unordered_set<int> visited; 
 
     // push path [from] into stack 
@@ -256,7 +251,7 @@ void Graph::Dijkstra(int from, int to, queue<int> &shortestPath){
         todo.pop(); 
 
         if(currentNode == to){
-            shortestPath = currentPath; 
+            shortestPair = currentPair; 
             return; 
         }
 
@@ -267,8 +262,12 @@ void Graph::Dijkstra(int from, int to, queue<int> &shortestPath){
 
             for(int i = 0; i < adjNodes.size(); i++){
                 queue<int> newPath = currentPath;
+
                 newPath.push(adjNodes[i].node);
-                todo.push({currentWeight + adjNodes[i].travelTime, currentPath});
+
+                if(adjNodes[i].adjFactor != 0){
+                    todo.push({currentWeight + adjNodes[i].travelTime, newPath});
+                }
             }
         }
     }

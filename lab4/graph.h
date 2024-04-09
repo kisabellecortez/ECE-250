@@ -42,5 +42,5 @@ public:
 
     /* helper functions */
     void addNode(int a); 
-    void Dijkstra(int from, int to, queue<int> &shortestPath);
+    void Dijkstra(int from, int to, pair<double, queue<int>> &shortestPair);
 };
