@@ -51,28 +51,38 @@ void LinkedList::time(double t)
 {
   Node *curr{head->next};
   Node *prev{nullptr};
-
+ 
   while (curr != nullptr)
   {
     double tempX = curr->x;
-    double angle = atan2(curr->y, tempX); 
+    double tempY = curr->y; 
+
+    if(tempX == 0 && tempY == 0){
+      curr = curr->next; 
+      continue; 
+    }
+
+    double angle = atan2(tempY, tempX); 
     curr->x -= t * cos(angle);
     curr->y -= t * sin(angle);
 
     // delete player if not in first quadrant
     if ((curr->x < 0) || (curr->y < 0))
     {
-      if(numPlayers == 1){
-        head->next = nullptr; 
-        curr = nullptr; 
-      }
-      else{
+      if (prev == nullptr) { // If the first player is out of bounds
+        head->next = curr->next;
+        delete curr;
+        curr = head->next; // Move to the next player
+      } else {
         prev->next = curr->next;
+        delete curr;
+        curr = prev->next; // Move to the next player
       }
 
       numPlayers--;
+      continue; // Skip the rest of the loop for this iteration
     }
-
+    
     prev = curr;
     curr = curr->next;
   }
@@ -131,12 +141,13 @@ void LinkedList::prt(double d)
     curr = curr->next;
   }
 
-  cout << endl; 
-
   if (!players)
   {
     cout << "no players found" << endl;
+    return; 
   }
+  
+  cout << endl; 
   
 }
 

@@ -25,7 +25,7 @@ void Graph::insert(int a, int b, double d, double s)
 
     // add NodeToEdge to vector at key a and b
     graph[a].push_back(newEdgeA);
-    graph[b].push_back(newEdgeB);
+    graph[b].push_back(newEdgeB); 
 }
 
 /* insert all nodes and edges in the graph */
@@ -177,6 +177,12 @@ void Graph::del(int a)
 
 void Graph::path(int a, int b)
 {
+    // check if nodes exist 
+    if(graph.find(a) == graph.end() || graph.find(b) == graph.end()){
+        cout << "failure" << endl; 
+        return; 
+    }
+
     pair<double, queue<int>> shortestPair; 
 
     Dijkstra(a, b, shortestPair); // get shortest path using Dijkstra's algorithm
@@ -202,6 +208,12 @@ void Graph::path(int a, int b)
 /* print the weight of the shortest path */
 void Graph::lowest(int a, int b)
 {
+    // check if nodes exist 
+    if(graph.find(a) == graph.end() || graph.find(b) == graph.end()){
+        cout << "failure" << endl; 
+        return; 
+    }
+
     pair<double, queue<int>> shortestPair;  
 
     Dijkstra(a, b, shortestPair); // get shortest path using Dijkstra's algorithm

@@ -1,0 +1,2178 @@
+print 212
+insert 186 251 1.62 1.87
+path 186 251
+delete 196
+insert 40 65 1.91 1.08
+path 40 65
+delete 129
+traffic 40 65 0.56
+path 186 251
+path 40 65
+traffic 40 65 0.33
+delete 84
+delete 367
+delete 230
+delete 121
+path 186 251
+insert 372 335 8.34 0.39
+insert 382 370 2.46 0.35
+path 382 370
+print 474
+traffic 186 251 0.64
+traffic 372 335 0.84
+traffic 382 370 0.36
+print 35
+insert 131 134 2.09 0.57
+print 498
+traffic 40 65 0.90
+delete 279
+delete 129
+traffic 382 370 0.86
+print 240
+print 237
+path 40 65
+insert 239 34 6.23 1.55
+path 239 34
+print 49
+insert 376 240 5.49 0.30
+path 186 251
+path 40 65
+delete 53
+path 239 34
+traffic 40 65 0.40
+delete 208
+traffic 186 251 0.79
+insert 373 127 1.93 1.46
+print 39
+insert 375 340 0.53 1.03
+print 313
+delete 160
+path 239 34
+print 491
+path 372 335
+traffic 376 240 0.89
+delete 249
+delete 450
+delete 395
+traffic 375 340 0.97
+traffic 239 34 0.13
+insert 249 380 2.80 2.28
+delete 304
+path 249 380
+path 40 65
+path 131 134
+delete 287
+traffic 40 65 0.34
+insert 488 33 2.48 1.53
+delete 111
+delete 369
+insert 75 221 5.07 0.77
+insert 28 63 6.51 2.33
+path 375 340
+traffic 239 34 0.27
+path 372 335
+print 490
+path 376 240
+path 382 370
+traffic 28 63 0.53
+path 373 127
+insert 131 309 8.85 1.69
+print 262
+path 382 370
+insert 78 487 1.16 0.14
+delete 434
+print 182
+path 239 34
+traffic 78 487 0.36
+print 354
+traffic 372 335 0.62
+print 360
+print 174
+delete 255
+print 475
+path 382 370
+traffic 373 127 0.62
+traffic 75 221 0.96
+delete 250
+insert 198 444 4.39 2.52
+path 198 444
+path 78 487
+path 131 309
+print 210
+insert 451 177 7.26 0.35
+delete 467
+print 109
+insert 303 26 8.84 1.71
+insert 364 199 1.37 0.31
+insert 153 81 5.53 2.59
+delete 445
+traffic 303 26 0.84
+path 153 81
+traffic 375 340 0.10
+delete 252
+delete 284
+delete 103
+print 448
+delete 225
+insert 103 17 9.15 0.87
+delete 249
+insert 34 462 2.33 2.08
+print 455
+traffic 34 462 0.50
+delete 496
+insert 309 206 7.08 0.76
+delete 139
+delete 83
+delete 127
+traffic 186 251 0.78
+delete 170
+insert 221 156 7.20 1.68
+traffic 131 309 0.92
+delete 339
+traffic 221 156 0.12
+path 239 34
+traffic 75 221 0.37
+path 198 444
+delete 418
+traffic 364 199 0.38
+path 372 335
+insert 107 132 3.42 0.65
+delete 208
+path 103 17
+print 53
+print 181
+insert 381 488 1.01 1.60
+traffic 221 156 0.24
+insert 298 90 8.86 0.61
+insert 404 126 5.87 1.21
+insert 264 147 5.44 1.47
+insert 239 210 9.72 2.01
+delete 91
+delete 388
+insert 182 442 8.74 1.91
+insert 105 14 5.97 2.03
+traffic 382 370 0.89
+insert 388 437 3.17 0.28
+path 364 199
+path 372 335
+path 239 34
+path 309 206
+path 388 437
+delete 87
+traffic 239 34 0.18
+print 337
+traffic 239 34 0.35
+delete 479
+delete 151
+path 40 65
+insert 385 297 0.35 2.07
+insert 213 156 0.17 2.46
+insert 218 59 8.37 1.53
+path 404 126
+path 309 206
+print 100
+traffic 239 34 1.00
+insert 302 378 4.86 1.90
+print 189
+delete 287
+delete 446
+path 103 17
+path 103 17
+path 451 177
+print 257
+path 107 132
+insert 12 153 1.52 1.75
+insert 353 364 6.61 0.39
+insert 147 368 0.33 2.40
+insert 128 307 3.49 0.38
+insert 111 114 4.77 2.89
+insert 134 380 1.10 2.20
+print 370
+path 213 156
+traffic 381 488 0.04
+delete 153
+traffic 182 442 0.85
+path 372 335
+path 239 34
+insert 179 382 5.64 0.49
+print 144
+delete 316
+insert 328 430 2.60 0.94
+delete 242
+path 213 156
+delete 13
+insert 332 230 2.72 2.58
+path 186 251
+insert 148 30 3.77 1.31
+delete 36
+print 390
+insert 367 408 0.96 2.42
+path 239 34
+delete 280
+traffic 303 26 0.25
+traffic 372 335 0.76
+traffic 239 210 0.40
+delete 248
+delete 72
+print 190
+path 367 408
+insert 215 363 2.09 1.50
+traffic 376 240 0.58
+print 433
+traffic 303 26 0.27
+print 488
+path 264 147
+traffic 218 59 0.50
+path 221 156
+path 221 156
+print 346
+print 418
+path 221 156
+delete 416
+path 364 199
+traffic 328 430 0.09
+insert 459 167 2.03 2.73
+traffic 404 126 0.47
+delete 26
+traffic 182 442 0.23
+traffic 215 363 0.56
+path 388 437
+insert 170 71 0.96 2.44
+path 302 378
+delete 445
+traffic 372 335 0.76
+path 218 59
+path 134 380
+traffic 376 240 0.53
+path 381 488
+insert 377 241 6.12 0.83
+delete 411
+delete 297
+path 375 340
+traffic 332 230 0.39
+print 354
+print 29
+traffic 353 364 0.24
+print 193
+traffic 364 199 0.24
+print 206
+print 441
+traffic 34 462 0.31
+insert 165 177 2.99 2.12
+traffic 75 221 0.39
+delete 250
+print 143
+delete 309
+print 446
+path 218 59
+print 7
+traffic 28 63 0.83
+delete 254
+delete 277
+path 377 241
+traffic 34 462 0.66
+traffic 131 134 0.28
+delete 188
+traffic 105 14 0.86
+insert 127 297 8.97 2.58
+print 380
+traffic 264 147 0.54
+insert 312 381 8.46 1.37
+path 328 430
+traffic 451 177 0.47
+delete 64
+insert 119 145 4.48 1.36
+print 255
+print 117
+insert 485 500 9.36 1.08
+traffic 375 340 0.10
+print 295
+print 492
+insert 416 299 4.72 1.28
+traffic 364 199 0.67
+delete 227
+path 186 251
+print 49
+delete 184
+path 375 340
+traffic 312 381 0.22
+traffic 40 65 0.43
+delete 438
+path 367 408
+delete 423
+delete 68
+path 451 177
+print 58
+path 75 221
+path 111 114
+print 230
+delete 103
+insert 358 5 1.49 0.72
+traffic 332 230 0.38
+insert 322 143 1.43 1.88
+delete 175
+print 282
+delete 336
+traffic 416 299 0.06
+traffic 107 132 0.22
+path 186 251
+print 399
+delete 461
+print 290
+print 440
+print 82
+path 179 382
+insert 172 204 5.18 1.09
+traffic 381 488 0.19
+insert 44 221 0.18 0.24
+traffic 34 462 0.53
+insert 46 134 0.18 0.32
+traffic 127 297 0.68
+print 77
+traffic 488 33 0.40
+insert 468 84 4.31 0.97
+traffic 239 210 0.41
+delete 1
+print 242
+print 440
+path 372 335
+delete 35
+traffic 381 488 0.33
+traffic 381 488 0.17
+path 367 408
+traffic 105 14 0.98
+traffic 488 33 0.51
+path 46 134
+path 218 59
+delete 121
+path 302 378
+print 88
+path 382 370
+traffic 215 363 0.77
+print 223
+traffic 367 408 0.56
+path 105 14
+print 144
+delete 443
+print 350
+delete 444
+insert 287 26 6.59 1.47
+insert 170 75 3.76 1.66
+path 215 363
+insert 337 365 0.73 1.63
+print 443
+print 298
+insert 253 389 7.86 2.79
+delete 67
+print 185
+delete 299
+insert 168 386 9.33 1.10
+print 384
+delete 163
+insert 388 114 1.53 2.69
+traffic 322 143 0.18
+insert 415 304 8.60 2.69
+path 264 147
+insert 456 140 8.33 1.11
+path 358 5
+insert 452 270 7.84 0.80
+traffic 119 145 0.39
+insert 467 127 0.23 0.90
+traffic 75 221 0.52
+print 53
+path 381 488
+insert 338 309 4.37 2.70
+traffic 128 307 0.50
+insert 2 481 2.37 1.61
+insert 133 338 5.28 2.15
+print 2
+print 249
+print 129
+path 172 204
+print 255
+delete 175
+print 185
+print 406
+traffic 467 127 0.90
+traffic 44 221 0.88
+insert 102 378 2.39 1.68
+print 12
+path 78 487
+path 2 481
+insert 205 492 0.65 1.95
+insert 315 235 1.72 1.58
+path 218 59
+print 222
+delete 55
+path 182 442
+print 202
+traffic 468 84 0.28
+delete 380
+delete 193
+path 44 221
+insert 499 194 1.14 0.52
+traffic 170 71 0.27
+print 353
+path 107 132
+print 115
+insert 293 232 8.25 0.72
+print 448
+traffic 499 194 0.87
+delete 289
+traffic 456 140 0.26
+delete 75
+path 127 297
+print 25
+delete 422
+delete 418
+insert 451 237 0.79 1.85
+delete 270
+delete 179
+insert 449 6 2.44 1.38
+path 147 368
+insert 214 316 3.34 2.15
+insert 360 294 6.98 2.82
+insert 380 206 1.64 2.92
+path 298 90
+insert 351 324 1.30 1.26
+traffic 382 370 0.56
+print 7
+insert 90 491 6.18 2.51
+insert 182 270 5.71 0.38
+path 358 5
+print 35
+print 203
+insert 96 397 4.11 1.12
+delete 316
+path 485 500
+insert 425 94 4.47 1.16
+insert 107 289 4.07 1.24
+path 221 156
+delete 264
+print 167
+path 46 134
+traffic 293 232 0.55
+insert 157 150 5.15 2.06
+traffic 105 14 0.22
+delete 399
+delete 201
+delete 138
+path 253 389
+print 153
+insert 131 491 2.45 0.11
+path 44 221
+traffic 148 30 0.83
+print 366
+traffic 451 177 0.22
+print 14
+path 147 368
+path 337 365
+print 278
+traffic 360 294 0.33
+delete 367
+traffic 485 500 0.85
+traffic 382 370 0.85
+delete 475
+print 8
+insert 417 157 0.98 2.49
+path 388 437
+path 302 378
+insert 202 77 9.34 2.59
+insert 398 458 6.95 0.17
+path 488 33
+insert 91 104 8.81 1.33
+traffic 302 378 0.99
+traffic 287 26 0.76
+print 256
+delete 180
+insert 226 489 1.79 0.47
+path 127 297
+traffic 388 437 0.38
+insert 350 427 4.24 2.51
+path 226 489
+print 434
+path 253 389
+traffic 2 481 0.17
+insert 263 350 6.99 0.94
+traffic 388 437 0.16
+delete 127
+insert 141 409 7.71 1.42
+insert 297 40 8.84 1.87
+insert 446 408 5.98 0.86
+delete 107
+print 204
+path 468 84
+delete 172
+print 35
+delete 56
+insert 58 234 0.49 0.19
+insert 495 302 6.92 0.25
+print 226
+traffic 221 156 0.67
+print 386
+path 449 6
+traffic 102 378 0.93
+insert 134 16 7.87 1.08
+insert 84 138 6.46 0.31
+delete 48
+delete 412
+delete 470
+delete 455
+traffic 134 16 0.32
+traffic 358 5 0.17
+print 272
+insert 136 236 9.33 0.48
+print 105
+path 485 500
+print 445
+insert 488 495 3.01 1.13
+delete 321
+delete 41
+insert 7 472 1.83 2.14
+delete 372
+path 105 14
+insert 290 414 1.84 0.50
+print 327
+path 297 40
+insert 444 159 5.47 2.74
+traffic 377 241 0.95
+traffic 46 134 0.86
+path 213 156
+insert 20 298 9.20 2.84
+traffic 444 159 0.34
+path 388 114
+traffic 168 386 0.41
+print 261
+print 349
+insert 279 259 4.34 2.00
+print 357
+insert 12 235 4.25 1.38
+delete 469
+print 192
+insert 70 486 8.32 1.73
+insert 234 102 5.49 1.31
+print 162
+insert 129 144 7.46 1.65
+insert 268 198 8.19 2.43
+print 125
+delete 34
+traffic 213 156 0.62
+path 157 150
+print 394
+insert 398 212 8.21 1.35
+traffic 263 350 0.57
+traffic 376 240 0.91
+insert 223 35 7.80 1.63
+path 7 472
+print 1
+traffic 131 491 0.41
+path 7 472
+traffic 376 240 0.89
+path 298 90
+delete 339
+delete 374
+print 317
+print 311
+insert 401 19 2.34 2.29
+traffic 105 14 0.45
+delete 33
+path 279 259
+insert 109 279 7.25 1.38
+print 112
+path 268 198
+path 401 19
+delete 304
+path 449 6
+path 263 350
+delete 219
+insert 368 148 3.24 1.28
+print 434
+print 39
+path 90 491
+print 293
+path 315 235
+path 133 338
+insert 404 436 7.55 2.94
+path 377 241
+print 6
+insert 368 399 9.41 2.62
+traffic 102 378 0.37
+traffic 401 19 0.59
+print 193
+traffic 96 397 0.04
+print 500
+path 456 140
+delete 12
+insert 273 368 2.64 1.06
+path 91 104
+delete 205
+traffic 186 251 0.54
+path 131 134
+insert 441 252 0.58 0.28
+path 148 30
+print 291
+insert 23 285 5.13 0.87
+insert 226 476 7.65 1.88
+delete 408
+insert 264 93 7.86 1.70
+traffic 119 145 0.28
+delete 299
+print 260
+delete 44
+traffic 134 16 0.72
+traffic 213 156 0.42
+path 148 30
+path 273 368
+print 448
+delete 78
+delete 95
+delete 135
+path 425 94
+path 353 364
+print 301
+traffic 287 26 0.15
+insert 53 488 2.51 2.50
+path 338 309
+insert 363 404 0.27 1.94
+insert 121 70 0.27 1.76
+path 273 368
+traffic 287 26 0.03
+path 213 156
+path 131 134
+path 337 365
+delete 311
+insert 100 452 6.35 2.68
+insert 376 12 6.20 0.25
+traffic 499 194 0.74
+print 87
+print 251
+print 263
+delete 164
+traffic 263 350 0.72
+traffic 131 491 0.87
+traffic 398 458 0.71
+print 186
+path 226 489
+delete 391
+delete 4
+path 84 138
+print 12
+print 6
+traffic 488 495 0.92
+traffic 337 365 0.78
+traffic 376 240 0.65
+path 147 368
+traffic 380 206 0.06
+print 139
+insert 417 381 8.07 0.59
+path 380 206
+path 215 363
+delete 415
+insert 62 395 5.03 2.94
+insert 403 149 7.16 2.96
+path 499 194
+print 489
+print 184
+delete 281
+print 128
+insert 18 27 2.56 2.37
+path 62 395
+insert 139 256 7.49 1.74
+traffic 417 381 1.00
+path 105 14
+delete 336
+traffic 417 157 0.48
+traffic 62 395 0.44
+traffic 350 427 0.97
+insert 236 279 6.31 2.67
+print 22
+insert 41 103 9.02 2.53
+traffic 485 500 0.33
+insert 195 264 1.67 2.46
+print 46
+path 213 156
+print 115
+insert 426 94 3.87 0.13
+insert 122 415 7.34 0.37
+delete 234
+delete 123
+print 297
+print 338
+traffic 129 144 0.61
+delete 164
+insert 129 278 2.74 1.92
+delete 375
+print 281
+delete 91
+delete 238
+delete 435
+delete 269
+print 402
+traffic 368 399 0.92
+delete 316
+print 281
+traffic 7 472 0.89
+insert 318 258 7.95 1.78
+traffic 223 35 0.93
+delete 219
+print 117
+insert 299 108 8.86 0.95
+insert 440 207 5.74 1.11
+insert 467 81 0.75 0.12
+traffic 133 338 0.80
+insert 93 426 8.63 2.60
+path 360 294
+print 335
+insert 33 56 7.98 0.38
+traffic 218 59 0.26
+insert 329 307 2.78 0.98
+delete 371
+path 7 472
+traffic 353 364 0.20
+insert 122 155 2.32 2.93
+delete 456
+traffic 488 495 0.68
+path 182 270
+traffic 226 489 0.19
+delete 150
+insert 233 223 6.62 0.46
+traffic 233 223 0.70
+path 7 472
+traffic 226 476 0.71
+traffic 298 90 0.19
+path 459 167
+path 122 415
+traffic 441 252 0.05
+traffic 53 488 0.50
+path 495 302
+traffic 253 389 0.14
+path 388 437
+print 277
+traffic 449 6 0.43
+print 20
+delete 87
+insert 257 54 1.04 0.72
+delete 37
+print 355
+insert 240 305 4.47 2.74
+insert 57 316 4.44 1.74
+print 377
+print 494
+insert 105 42 5.89 2.07
+path 398 212
+print 117
+path 381 488
+path 404 126
+print 341
+path 18 27
+delete 416
+delete 468
+traffic 215 363 0.94
+insert 343 331 4.98 0.73
+traffic 273 368 0.36
+path 202 77
+print 458
+print 403
+insert 192 295 9.67 0.55
+traffic 451 237 0.47
+path 70 486
+print 151
+insert 315 418 4.95 2.74
+insert 92 41 5.56 0.64
+traffic 133 338 0.44
+path 105 14
+print 290
+print 238
+delete 469
+path 381 488
+traffic 350 427 0.35
+print 102
+path 290 414
+print 432
+insert 498 41 8.30 0.56
+path 165 177
+path 148 30
+print 234
+path 451 237
+print 399
+print 235
+path 40 65
+traffic 141 409 0.50
+traffic 350 427 0.31
+insert 289 408 0.62 0.27
+insert 174 278 4.25 2.51
+print 168
+path 62 395
+delete 270
+print 444
+insert 165 467 3.05 1.06
+insert 315 377 6.53 2.55
+path 289 408
+traffic 417 381 0.03
+delete 334
+delete 464
+path 351 324
+traffic 28 63 0.82
+print 428
+traffic 332 230 0.59
+delete 235
+print 157
+delete 93
+insert 360 436 6.16 0.87
+print 89
+insert 329 135 5.60 0.18
+path 41 103
+insert 88 485 2.13 2.37
+insert 419 27 7.55 2.55
+print 42
+traffic 136 236 0.67
+insert 67 281 4.06 2.61
+path 195 264
+path 57 316
+print 219
+path 398 212
+insert 34 145 5.87 1.50
+insert 391 169 8.20 1.05
+traffic 84 138 0.66
+print 262
+insert 224 273 5.28 1.70
+traffic 128 307 0.72
+insert 284 265 4.86 2.13
+delete 451
+traffic 403 149 0.84
+insert 40 456 1.55 2.10
+delete 360
+insert 437 354 0.73 0.30
+print 410
+print 79
+traffic 2 481 0.41
+insert 38 294 6.14 1.47
+traffic 168 386 0.82
+delete 482
+print 195
+path 202 77
+path 368 148
+delete 253
+traffic 329 307 1.00
+print 332
+delete 103
+traffic 363 404 0.03
+path 34 145
+traffic 92 41 0.90
+print 455
+delete 238
+insert 460 69 1.43 1.56
+traffic 213 156 0.80
+path 38 294
+path 224 273
+insert 479 348 6.68 0.27
+print 208
+path 129 144
+insert 365 45 8.19 2.93
+insert 86 78 6.16 1.44
+path 382 370
+insert 440 425 1.75 0.79
+traffic 444 159 0.87
+print 348
+traffic 440 207 0.33
+insert 4 368 5.23 0.89
+print 202
+insert 404 339 4.45 2.45
+insert 469 424 3.56 0.53
+traffic 273 368 0.57
+path 213 156
+print 463
+insert 491 72 9.84 1.94
+path 287 26
+insert 297 269 0.46 2.62
+traffic 33 56 0.24
+traffic 318 258 0.13
+print 122
+delete 12
+path 131 134
+insert 198 294 0.79 2.09
+delete 423
+insert 450 186 9.07 0.42
+delete 457
+print 347
+print 287
+insert 360 130 9.35 1.52
+print 314
+delete 163
+insert 153 415 3.48 2.82
+print 153
+path 136 236
+delete 280
+insert 20 48 1.10 0.27
+delete 95
+path 46 134
+delete 414
+path 226 489
+print 332
+traffic 450 186 1.00
+insert 91 251 7.40 2.37
+insert 301 36 8.36 1.19
+delete 237
+traffic 192 295 0.48
+print 69
+traffic 437 354 0.89
+path 284 265
+path 40 65
+path 141 409
+delete 138
+traffic 381 488 0.96
+insert 289 292 1.35 0.68
+print 416
+print 363
+insert 355 381 4.47 2.85
+path 388 437
+print 352
+delete 92
+print 356
+traffic 381 488 0.08
+print 200
+delete 408
+insert 363 97 4.84 2.12
+delete 386
+path 223 35
+path 223 35
+print 269
+traffic 353 364 0.40
+insert 287 146 7.19 2.51
+path 226 476
+path 425 94
+path 293 232
+path 4 368
+path 499 194
+traffic 368 399 0.53
+print 297
+traffic 488 495 0.68
+path 186 251
+path 136 236
+insert 199 376 9.42 2.21
+insert 201 277 7.63 2.40
+insert 462 478 9.77 0.65
+insert 415 390 6.11 1.05
+print 78
+path 437 354
+traffic 498 41 0.52
+traffic 467 81 0.35
+delete 353
+traffic 223 35 0.82
+traffic 186 251 0.87
+path 404 339
+path 301 36
+delete 212
+insert 137 169 8.83 2.27
+path 297 269
+traffic 129 278 0.33
+print 45
+traffic 201 277 0.88
+print 416
+delete 101
+traffic 401 19 0.16
+path 4 368
+print 254
+traffic 122 155 0.96
+insert 138 457 6.33 2.31
+insert 22 355 5.27 1.28
+traffic 90 491 0.95
+traffic 226 489 0.52
+traffic 403 149 0.65
+delete 85
+delete 345
+path 215 363
+traffic 105 42 0.92
+traffic 105 14 0.56
+delete 435
+insert 484 274 5.40 2.17
+print 178
+insert 489 64 5.86 2.90
+print 329
+print 374
+print 365
+path 88 485
+traffic 462 478 0.37
+path 404 339
+traffic 358 5 0.17
+path 488 495
+delete 486
+print 34
+traffic 449 6 0.53
+traffic 182 442 0.89
+insert 68 344 4.69 1.28
+path 450 186
+delete 207
+path 213 156
+delete 486
+traffic 257 54 0.42
+path 129 144
+path 198 294
+insert 405 312 1.91 2.04
+insert 212 235 4.28 1.45
+print 361
+traffic 462 478 0.53
+traffic 301 36 0.82
+print 372
+print 414
+print 147
+print 224
+print 450
+delete 92
+insert 176 190 5.90 1.17
+insert 398 186 6.60 0.86
+insert 100 458 8.41 1.29
+delete 362
+path 398 186
+print 457
+print 380
+insert 340 85 2.57 1.44
+insert 427 13 3.71 0.67
+print 500
+path 340 85
+traffic 53 488 0.24
+path 111 114
+print 142
+insert 225 248 7.18 1.47
+print 231
+insert 218 37 8.13 2.88
+traffic 417 381 0.06
+print 373
+insert 345 23 5.46 0.50
+path 449 6
+insert 57 458 3.40 0.89
+traffic 368 399 0.95
+insert 158 466 8.26 1.56
+traffic 425 94 0.96
+traffic 398 186 0.05
+delete 483
+path 257 54
+path 469 424
+path 218 37
+insert 398 402 6.90 1.98
+path 462 478
+traffic 263 350 0.44
+path 404 436
+delete 241
+delete 317
+path 46 134
+path 28 63
+path 68 344
+print 127
+print 79
+path 380 206
+path 404 339
+traffic 133 338 0.64
+traffic 33 56 0.55
+path 485 500
+path 404 126
+insert 319 230 2.37 1.49
+traffic 328 430 0.98
+print 144
+path 18 27
+insert 449 475 7.98 0.23
+traffic 121 70 0.66
+delete 313
+insert 259 210 4.42 0.42
+traffic 299 108 0.13
+delete 49
+delete 130
+traffic 329 135 0.78
+path 18 27
+delete 10
+delete 174
+insert 325 296 3.04 2.13
+print 318
+traffic 329 135 0.29
+insert 348 369 9.02 0.12
+print 441
+path 225 248
+insert 334 394 7.15 1.70
+insert 2 170 7.06 2.32
+insert 399 158 8.31 1.75
+path 28 63
+print 292
+insert 11 108 4.21 0.33
+traffic 121 70 0.13
+insert 298 60 7.89 0.23
+delete 55
+print 86
+print 480
+delete 243
+delete 435
+delete 137
+delete 6
+delete 177
+insert 46 265 4.12 1.17
+traffic 444 159 0.71
+delete 229
+path 105 42
+insert 215 266 1.06 2.05
+insert 358 345 7.59 2.64
+path 334 394
+traffic 236 279 0.92
+path 102 378
+traffic 96 397 0.69
+path 148 30
+delete 396
+insert 441 125 4.75 1.42
+print 485
+path 131 491
+insert 335 78 6.59 0.29
+print 296
+print 479
+print 441
+print 58
+traffic 226 489 0.76
+path 131 134
+delete 370
+delete 179
+insert 356 289 9.45 0.60
+insert 282 238 6.97 1.84
+print 392
+delete 242
+path 86 78
+traffic 186 251 0.37
+delete 128
+print 192
+print 188
+traffic 105 42 0.02
+path 356 289
+delete 451
+traffic 40 65 0.60
+delete 169
+traffic 105 42 0.71
+path 195 264
+traffic 381 488 0.42
+insert 79 392 5.44 1.03
+insert 225 154 4.08 2.59
+delete 493
+traffic 212 235 0.23
+path 498 41
+traffic 404 436 0.89
+traffic 419 27 0.56
+print 69
+traffic 328 430 0.67
+insert 17 179 7.43 1.76
+traffic 388 114 0.73
+delete 301
+print 115
+traffic 273 368 0.28
+path 218 37
+print 301
+print 361
+delete 319
+traffic 355 381 0.57
+insert 345 114 4.22 0.62
+print 159
+path 225 154
+traffic 263 350 0.78
+print 486
+traffic 467 81 0.66
+traffic 186 251 0.31
+insert 350 415 0.13 2.07
+traffic 148 30 0.93
+print 433
+path 440 425
+print 141
+print 206
+print 151
+traffic 479 348 0.40
+path 139 256
+traffic 343 331 0.04
+traffic 20 298 1.00
+insert 317 233 1.32 1.53
+path 279 259
+delete 322
+insert 347 311 0.71 2.31
+print 380
+insert 62 459 7.50 0.80
+traffic 488 495 0.70
+delete 359
+traffic 111 114 0.53
+delete 381
+path 298 90
+print 120
+traffic 368 399 0.51
+insert 242 296 6.47 1.03
+delete 433
+print 374
+delete 428
+path 404 339
+delete 327
+path 212 235
+insert 164 289 7.76 1.32
+print 377
+delete 219
+print 415
+print 113
+traffic 279 259 0.97
+traffic 7 472 0.79
+print 81
+delete 310
+print 475
+traffic 345 23 0.14
+insert 365 101 7.66 1.91
+print 121
+path 240 305
+traffic 38 294 0.69
+traffic 282 238 0.01
+print 87
+path 404 126
+insert 237 145 4.43 1.69
+delete 41
+traffic 364 199 0.86
+path 129 278
+traffic 147 368 0.82
+path 170 71
+insert 143 64 5.06 0.52
+traffic 337 365 0.36
+insert 82 168 6.65 2.18
+insert 327 492 3.72 0.93
+traffic 398 186 0.59
+path 17 179
+path 2 481
+insert 280 278 8.79 1.42
+insert 71 210 1.99 2.42
+print 427
+traffic 2 170 0.80
+delete 143
+print 163
+insert 369 126 8.51 2.72
+traffic 398 186 0.58
+print 121
+insert 382 80 2.92 1.10
+path 233 223
+traffic 182 442 0.60
+traffic 404 126 0.40
+traffic 332 230 0.83
+traffic 259 210 0.66
+traffic 380 206 0.71
+delete 357
+print 36
+print 358
+path 358 5
+path 388 437
+insert 157 239 6.23 1.08
+print 423
+traffic 136 236 0.83
+path 279 259
+path 491 72
+path 138 457
+insert 9 390 8.24 2.11
+print 100
+insert 207 73 8.91 2.44
+insert 495 238 1.46 1.84
+print 464
+insert 499 143 1.85 1.89
+traffic 100 452 0.71
+print 231
+traffic 368 148 0.37
+traffic 257 54 0.52
+insert 137 215 2.93 2.70
+insert 116 52 1.72 2.84
+traffic 147 368 0.18
+path 122 415
+print 80
+insert 244 275 2.73 0.55
+delete 203
+print 309
+print 383
+path 71 210
+print 437
+insert 258 228 1.05 0.90
+insert 87 458 8.93 1.28
+print 27
+traffic 343 331 0.25
+path 82 168
+traffic 40 456 0.38
+delete 402
+path 365 101
+path 491 72
+path 71 210
+insert 44 144 5.69 0.54
+delete 396
+insert 444 303 0.95 2.99
+insert 411 160 4.02 1.61
+path 488 495
+insert 488 272 3.39 1.51
+traffic 273 368 0.61
+insert 170 456 1.19 1.94
+print 414
+insert 47 407 9.16 3.00
+traffic 224 273 0.24
+traffic 287 146 0.30
+print 175
+traffic 38 294 0.52
+traffic 165 467 0.25
+delete 325
+traffic 427 13 0.15
+path 258 228
+path 82 168
+delete 49
+insert 205 112 1.74 1.64
+print 243
+traffic 287 26 0.99
+delete 286
+print 162
+insert 460 5 6.98 0.35
+insert 347 6 3.49 2.01
+print 474
+path 57 316
+insert 131 214 2.17 0.94
+path 182 442
+traffic 44 144 0.94
+path 38 294
+print 73
+path 186 251
+print 414
+path 105 14
+traffic 350 427 0.10
+traffic 462 478 0.74
+insert 278 101 5.31 2.35
+traffic 337 365 0.62
+path 131 491
+delete 259
+path 205 112
+print 230
+delete 187
+traffic 299 108 0.04
+insert 462 280 7.94 2.38
+traffic 467 81 0.54
+insert 325 97 7.00 0.38
+print 67
+path 129 144
+insert 41 47 8.68 2.27
+insert 312 52 7.93 2.77
+insert 366 407 0.57 2.71
+print 482
+traffic 164 289 0.79
+delete 351
+path 170 71
+delete 371
+insert 12 229 1.41 0.17
+traffic 398 458 0.37
+path 165 467
+insert 419 416 3.09 1.17
+delete 376
+print 470
+traffic 198 294 0.26
+delete 78
+path 449 475
+print 271
+traffic 382 80 0.83
+insert 337 317 1.12 2.27
+traffic 425 94 0.97
+traffic 347 6 0.73
+delete 397
+path 257 54
+traffic 327 492 0.78
+path 9 390
+delete 397
+path 369 126
+print 175
+delete 288
+print 227
+insert 212 497 2.70 1.80
+traffic 18 27 0.11
+delete 220
+delete 366
+delete 20
+insert 222 7 8.58 2.39
+insert 9 259 4.25 1.19
+path 122 155
+delete 112
+print 138
+path 273 368
+path 297 40
+print 158
+path 122 155
+delete 391
+delete 238
+traffic 444 303 0.28
+path 315 377
+path 215 363
+insert 68 170 6.81 2.67
+delete 53
+insert 269 463 3.89 2.58
+print 112
+insert 244 442 2.46 0.83
+path 399 158
+insert 95 179 7.55 0.37
+traffic 87 458 0.21
+insert 426 345 2.49 1.96
+path 350 427
+path 233 223
+traffic 4 368 0.32
+traffic 207 73 0.73
+insert 202 475 2.83 2.30
+traffic 90 491 0.05
+path 68 344
+print 490
+delete 172
+traffic 198 294 0.15
+print 78
+traffic 207 73 0.95
+path 437 354
+insert 262 35 4.12 0.76
+print 240
+print 45
+path 237 145
+path 415 390
+delete 167
+path 297 269
+print 241
+path 218 59
+path 212 235
+path 17 179
+insert 451 446 1.86 1.64
+traffic 268 198 0.95
+path 201 277
+traffic 71 210 0.96
+path 299 108
+print 351
+path 133 338
+insert 422 357 3.21 0.16
+path 287 146
+path 46 265
+delete 33
+traffic 233 223 0.91
+insert 85 398 7.66 2.83
+insert 71 102 6.39 0.21
+path 147 368
+path 298 90
+delete 258
+delete 178
+delete 186
+delete 251
+traffic 302 378 0.98
+path 129 144
+delete 411
+insert 31 217 6.82 1.69
+traffic 419 27 0.99
+delete 269
+insert 380 172 6.73 2.07
+insert 112 229 8.49 2.40
+traffic 415 390 0.35
+delete 374
+traffic 280 278 0.80
+path 11 108
+path 136 236
+insert 266 411 3.23 2.57
+delete 185
+print 483
+delete 26
+path 119 145
+delete 45
+traffic 133 338 0.89
+delete 32
+traffic 11 108 0.68
+path 121 70
+insert 396 403 2.01 1.69
+insert 278 459 6.08 2.51
+path 317 233
+print 27
+insert 330 489 6.91 1.24
+traffic 426 94 0.97
+path 40 65
+insert 40 268 8.93 2.70
+insert 414 105 5.04 1.29
+traffic 90 491 0.90
+delete 292
+path 2 170
+print 235
+delete 364
+traffic 426 345 0.57
+print 499
+traffic 298 90 0.59
+insert 21 477 0.25 0.20
+delete 199
+traffic 119 145 0.03
+delete 478
+print 138
+traffic 356 289 0.45
+print 416
+insert 57 115 0.34 2.65
+insert 365 61 2.84 1.09
+insert 374 73 5.66 1.67
+traffic 116 52 0.54
+delete 314
+delete 195
+print 325
+path 79 392
+insert 395 73 3.51 0.27
+traffic 85 398 0.57
+traffic 348 369 0.70
+delete 500
+insert 221 169 1.35 0.72
+delete 35
+path 338 309
+print 429
+path 298 90
+print 51
+traffic 116 52 0.35
+path 207 73
+delete 126
+path 157 239
+traffic 467 81 0.81
+traffic 437 354 0.36
+delete 238
+delete 192
+path 46 265
+print 465
+delete 63
+print 133
+path 141 409
+traffic 102 378 0.49
+insert 70 416 4.95 0.18
+insert 3 131 1.98 0.73
+insert 190 64 2.49 1.85
+traffic 396 403 0.40
+traffic 225 154 0.05
+insert 476 455 3.19 1.98
+traffic 302 378 0.72
+path 2 170
+path 415 390
+print 46
+insert 168 474 9.03 0.93
+delete 444
+path 57 115
+delete 264
+insert 147 322 7.01 2.36
+print 239
+print 165
+path 488 495
+delete 325
+path 278 101
+insert 415 479 9.14 0.21
+traffic 347 6 0.47
+path 18 27
+delete 398
+print 200
+insert 364 351 0.68 0.11
+delete 76
+path 40 456
+delete 467
+delete 12
+traffic 340 85 0.05
+print 342
+path 299 108
+print 174
+insert 411 126 1.61 1.42
+print 165
+delete 322
+delete 262
+print 3
+traffic 488 272 0.77
+print 477
+traffic 68 170 0.99
+print 219
+print 341
+insert 485 317 6.30 1.94
+delete 467
+insert 278 51 4.71 2.11
+insert 339 312 8.71 0.72
+insert 272 104 8.93 2.25
+delete 208
+print 137
+traffic 22 355 0.23
+print 66
+traffic 415 479 0.85
+print 250
+insert 462 14 9.22 1.25
+path 328 430
+print 252
+insert 382 158 7.47 2.58
+print 289
+path 224 273
+insert 179 10 7.49 0.88
+traffic 224 273 0.03
+insert 180 284 7.97 2.18
+delete 334
+insert 148 114 3.60 0.97
+delete 360
+traffic 337 317 0.91
+delete 267
+traffic 266 411 0.51
+print 475
+path 364 351
+print 150
+print 85
+insert 178 444 5.99 1.40
+insert 264 188 8.57 2.84
+traffic 368 148 0.06
+insert 269 74 6.80 1.42
+print 110
+print 477
+insert 428 367 5.59 2.98
+print 271
+insert 214 455 6.56 1.00
+print 288
+insert 123 397 5.29 0.96
+print 436
+traffic 440 425 0.54
+print 185
+delete 27
+print 386
+traffic 46 265 0.59
+insert 343 25 0.51 0.56
+path 403 149
+insert 202 103 6.97 1.55
+traffic 298 90 0.39
+delete 291
+path 46 134
+delete 236
+traffic 299 108 0.96
+insert 354 393 2.30 2.93
+insert 406 324 7.17 1.39
+path 119 145
+print 395
+path 47 407
+print 190
+traffic 62 395 0.74
+print 62
+delete 316
+traffic 330 489 0.99
+insert 438 151 2.00 2.16
+path 485 317
+traffic 34 145 0.71
+traffic 354 393 0.70
+insert 80 457 7.64 1.89
+traffic 268 198 0.62
+print 420
+delete 447
+traffic 491 72 0.43
+insert 136 278 6.74 1.58
+insert 401 301 5.48 2.53
+traffic 441 125 0.20
+path 168 474
+print 134
+delete 342
+print 130
+path 388 114
+traffic 129 278 0.28
+traffic 280 278 0.37
+traffic 2 170 0.76
+insert 475 152 7.09 1.18
+print 414
+insert 375 247 6.67 2.98
+print 311
+insert 259 34 2.97 2.85
+path 215 363
+insert 197 495 4.46 2.62
+delete 373
+path 476 455
+delete 258
+delete 96
+print 286
+print 144
+insert 196 275 3.58 2.84
+traffic 148 114 0.84
+insert 402 98 4.34 0.21
+path 488 495
+path 414 105
+print 363
+path 131 214
+insert 498 289 2.76 0.99
+print 4
+insert 402 497 3.29 0.12
+insert 98 226 0.83 1.16
+traffic 239 210 0.62
+delete 113
+insert 261 189 8.00 1.21
+path 131 134
+traffic 225 154 0.35
+print 167
+path 499 143
+delete 187
+path 111 114
+delete 126
+print 378
+print 289
+path 7 472
+delete 493
+path 273 368
+delete 141
+traffic 298 90 0.23
+print 398
+insert 179 231 7.36 1.10
+path 495 302
+delete 184
+insert 185 397 9.83 0.58
+path 71 102
+traffic 148 114 0.12
+delete 456
+insert 454 393 3.00 0.64
+traffic 406 324 0.49
+path 350 415
+print 465
+print 112
+traffic 212 235 0.14
+print 259
+print 384
+delete 31
+traffic 123 397 0.79
+insert 45 72 5.18 1.33
+path 46 265
+insert 346 190 1.82 0.20
+print 452
+traffic 116 52 0.34
+delete 495
+print 112
+delete 117
+delete 103
+insert 181 94 5.39 2.11
+delete 24
+delete 267
+path 469 424
+delete 319
+path 242 296
+insert 42 233 9.89 2.58
+insert 394 349 2.06 0.14
+path 454 393
+insert 74 163 9.41 2.67
+path 87 458
+path 414 105
+delete 239
+path 2 481
+print 180
+delete 171
+traffic 119 145 0.50
+insert 438 261 3.60 0.12
+traffic 388 437 0.06
+print 239
+delete 251
+delete 112
+traffic 422 357 0.25
+print 251
+print 299
+insert 169 232 4.63 2.92
+traffic 148 30 0.69
+insert 281 61 4.33 2.40
+print 106
+traffic 225 248 0.84
+insert 172 222 4.91 0.67
+print 351
+delete 263
+insert 246 426 7.07 2.35
+traffic 221 169 0.10
+path 2 481
+path 315 418
+traffic 278 51 0.72
+path 264 188
+path 68 344
+print 224
+delete 193
+delete 276
+path 198 294
+delete 269
+print 391
+delete 81
+delete 466
+print 278
+insert 409 236 5.84 1.61
+path 460 69
+print 40
+insert 344 190 6.84 1.76
+traffic 129 278 0.19
+print 200
+path 278 51
+insert 446 417 2.72 0.38
+delete 270
+insert 34 71 6.23 1.97
+delete 57
+traffic 233 223 0.52
+delete 53
+insert 433 363 7.01 2.87
+print 281
+delete 198
+print 262
+insert 319 419 4.91 2.08
+delete 444
+delete 304
+delete 119
+traffic 202 77 0.80
+delete 308
+delete 164
+print 5
+traffic 242 296 0.65
+path 315 418
+insert 20 462 9.58 0.82
+traffic 454 393 0.38
+traffic 382 158 0.10
+print 347
+insert 186 104 4.71 1.74
+insert 386 479 7.77 0.61
+delete 171
+path 358 5
+delete 472
+print 266
+insert 98 72 1.82 0.23
+traffic 428 367 0.42
+print 427
+path 67 281
+delete 422
+insert 424 370 9.54 2.89
+print 320
+insert 412 23 8.63 1.90
+print 43
+delete 325
+print 193
+path 70 416
+traffic 224 273 0.83
+path 212 235
+path 221 156
+delete 348
+path 488 272
+insert 175 277 5.54 0.77
+path 297 40
+traffic 201 277 0.27
+print 429
+print 94
+print 427
+path 350 427
+delete 424
+print 60
+insert 355 2 0.71 2.01
+print 364
+print 419
+delete 47
+delete 468
+delete 333
+path 488 272
+insert 163 442 5.49 0.29
+insert 42 188 7.70 2.72
+path 45 72
+path 409 236
+insert 79 374 4.72 2.81
+traffic 298 90 0.79
+insert 202 159 4.25 2.60
+delete 208
+print 380
+delete 335
+delete 123
+delete 165
+traffic 405 312 0.55
+traffic 131 491 0.40
+path 438 261
+delete 255
+insert 135 429 1.10 2.50
+path 427 13
+traffic 100 458 0.03
+print 74
+print 354
+insert 414 481 5.05 0.21
+traffic 386 479 0.98
+path 240 305
+insert 317 116 6.30 2.26
+delete 189
+print 407
+path 475 152
+delete 142
+print 354
+delete 266
+path 109 279
+traffic 428 367 0.42
+delete 139
+print 6
+delete 451
+delete 463
+print 75
+path 9 390
+print 269
+traffic 87 458 0.39
+delete 315
+delete 360
+delete 232
+delete 370
+traffic 317 116 0.08
+traffic 100 452 0.48
+print 57
+print 19
+delete 54
+print 466
+traffic 491 72 0.22
+path 402 98
+path 153 415
+insert 83 396 4.64 2.06
+traffic 87 458 0.42
+insert 86 15 1.31 1.46
+path 181 94
+path 71 102
+traffic 340 85 0.07
+traffic 98 226 1.00
+delete 4
+print 124
+path 80 457
+print 204
+delete 105
+print 38
+insert 144 274 1.81 1.33
+path 399 158
+delete 237
+insert 410 311 8.14 2.16
+insert 183 254 8.87 2.98
+delete 170
+print 405
+print 123
+insert 304 78 5.85 0.59
+path 425 94
+path 491 72
+delete 32
+delete 198
+path 62 395
+traffic 343 331 0.97
+path 337 317
+print 4
+insert 420 287 8.27 2.10
+traffic 280 278 0.55
+insert 350 62 7.92 2.74
+insert 270 438 2.39 0.94
+delete 229
+path 364 351
+insert 273 486 6.17 2.87
+insert 178 414 8.41 0.64
+path 135 429
+delete 392
+print 250
+delete 466
+traffic 9 259 0.75
+print 262
+traffic 410 311 0.04
+print 450
+print 342
+path 356 289
+insert 96 373 1.25 2.87
+print 204
+delete 200
+path 440 425
+path 460 69
+delete 165
+delete 204
+delete 243
+insert 146 415 6.21 0.49
+path 163 442
+delete 158
+insert 233 3 8.75 0.84
+delete 278
+delete 184
+traffic 131 214 0.05
+delete 396
+print 221
+path 332 230
+delete 331
+print 324
+path 244 275
+path 74 163
+path 425 94
+path 226 476
+print 268
+delete 462
+delete 94
+traffic 438 151 0.17
+traffic 428 367 0.70
+traffic 346 190 0.08
+print 78
+insert 293 485 4.53 2.82
+path 196 275
+path 287 146
+path 178 414
+print 218
+path 226 489
+traffic 428 367 0.42
+path 212 235
+traffic 148 30 0.26
+print 266
+insert 10 192 8.51 2.78
+traffic 71 102 0.48
+print 82
+path 224 273
+traffic 34 145 0.88
+traffic 382 80 0.96
+insert 32 27 8.76 1.75
+print 49
+path 46 265
+print 484
+delete 215
+delete 371
+traffic 109 279 0.49
+insert 274 273 7.68 0.27
+delete 147
+delete 90
+insert 166 106 7.43 2.53
+print 392
+insert 266 447 4.26 0.74
+insert 280 299 0.75 0.57
+print 37
+delete 139
+path 134 16
+path 46 265
+traffic 233 223 0.78
+traffic 415 390 0.68
+path 350 427
+print 363
+insert 469 440 7.42 0.22
+delete 400
+insert 282 372 6.53 2.60
+delete 327
+delete 222
+path 395 73
+delete 16
+traffic 412 23 0.10
+insert 408 94 7.11 2.61
+path 224 273
+delete 371
+traffic 225 154 0.05
+path 446 417
+path 207 73
+traffic 87 458 0.09
+delete 244
+print 336
+insert 379 209 7.72 2.62
+path 21 477
+traffic 380 206 0.87
+print 304
+print 44
+print 243
+path 71 210
+delete 105
+path 426 345
+path 395 73
+path 394 349
+path 175 277
+print 121
+insert 417 347 6.24 0.29
+path 499 143
+insert 448 455 8.65 1.61
+print 24
+insert 40 405 1.34 0.88
+print 388
+print 335
+path 153 415
+print 23
+delete 253
+path 9 259
+traffic 86 15 0.62
+insert 116 41 1.02 1.36
+traffic 122 155 0.70
+traffic 345 23 0.77
+delete 316
+insert 202 93 8.12 0.25
+insert 276 491 1.85 0.40
+insert 482 174 1.63 0.93
+insert 162 423 5.89 2.31
+insert 292 140 3.49 0.82
+path 365 101
+traffic 358 5 0.83
+print 375
+insert 86 434 7.00 1.30
+path 350 62
+path 116 41
+traffic 379 209 0.64
+print 39
+delete 431
+insert 350 191 0.71 1.72
+path 21 477
+delete 39
+traffic 87 458 0.77
+delete 165
+print 77
+print 221
+path 437 354
+insert 406 132 7.75 2.25
+delete 38
+traffic 87 458 0.45
+print 342
+path 363 404
+print 318
+print 369
+delete 303
+print 17
+insert 236 94 0.70 2.51
+print 462
+insert 443 456 2.14 2.60
+insert 172 418 3.04 1.76
+path 240 305
+path 401 19
+delete 193
+insert 293 486 4.74 0.19
+print 207
+delete 333
+path 40 405
+print 468
+delete 208
+insert 234 480 5.14 0.88
+delete 433
+path 240 305
+delete 38
+print 170
+insert 233 89 2.02 1.75
+print 4
+path 491 72
+insert 316 268 7.28 1.23
+insert 222 404 5.28 0.18
+print 8
+delete 213
+insert 302 360 4.51 2.18
+traffic 491 72 0.34
+print 408
+print 85
+delete 366
+delete 100
+path 222 404
+traffic 345 23 0.07
+print 6
+delete 235
+delete 337
+path 350 62
+insert 329 238 6.32 1.71
+insert 45 11 1.79 2.61
+insert 29 267 4.55 2.97
+print 441
+delete 281
+traffic 368 399 0.35
+path 417 157
+print 154
+print 486
+delete 5
+path 40 268
+traffic 190 64 0.42
+insert 37 328 6.73 2.74
+insert 330 403 2.75 1.13
+insert 83 274 1.67 1.92
+traffic 344 190 0.14
+traffic 71 210 0.50
+delete 70
+insert 141 497 9.38 0.40
+path 42 233
+path 403 149
+print 418
+path 46 265
+insert 183 125 5.59 0.68
+path 328 430
+path 214 455
+traffic 404 339 0.77
+traffic 448 455 0.62
+traffic 330 403 0.60
+path 45 11
+delete 95
+traffic 329 135 0.21
+traffic 441 125 0.45
+delete 55
+traffic 175 277 0.53
+traffic 312 52 0.13
+delete 337
+insert 17 488 7.89 2.24
+traffic 74 163 0.54
+path 207 73
+path 182 442
+insert 85 460 9.46 1.30
+print 74
+print 164
+path 3 131
+insert 441 75 8.00 1.48
+print 281
+path 443 456
+path 98 72
+traffic 404 339 0.48
+traffic 482 174 0.51

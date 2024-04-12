@@ -12,13 +12,13 @@ int main()
 
     LinkedList list; // initialize linked list
 
-    string cmd;
     bool isPlaying = true;
-
-    cin >> cmd;
 
     while (isPlaying)
     {
+        string cmd; 
+        cin >> cmd; 
+
         if (cmd == "SPAWN")
         {
             double x; 
@@ -62,9 +62,6 @@ int main()
         else
         {
         }
-
-        cin >> cmd;
-
     }
     return 0;
 }
